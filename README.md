@@ -48,8 +48,11 @@ Shipping secrets (e.g., ADMIN_API_KEY, FLAG_SECRET) in public distributions lead
 Reusing predictable PRNGs or keystreams breaks confidentiality for XOR-style stream ciphers.
 
 ### 📁 Included File
-TrustCTF_Write-Up.pdf — Full write-up (uploaded). Download path (local):
-/mnt/data/2bdd655e-b14d-4d5d-863b-6216dfb25d5e.pdf
+A full detailed write-up with all screenshots and explanations is included in the repository.
+
+You can access it here:  
+[**Write-Up_TrustCTF.pdf**](./Write-Up_TrustCTF.pdf)
+
 
 ### 👤 Authors
 
