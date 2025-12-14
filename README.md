@@ -4,7 +4,7 @@ This repository contains concise write-ups for three challenges solved during **
 
 ---
 
-## 🔍 Challenge Highlights
+##  Challenge Highlights
 
 ### 1. API Security- HTTP Parameter Pollution → IDOR
 A parameter-parsing mismatch in `GET /api/balance` allowed HTTP Parameter Pollution, resulting in an IDOR that leaked the admin balance and flag.  
@@ -20,7 +20,7 @@ Recovered the keystream using known plaintext, solved LCG parameters (`A = 0x49`
 
 ---
 
-## 🧪 Reproduction (PoC Commands)
+##  Reproduction (PoC Commands)
 
 ### 1. Register & Login
 curl -s -X POST https://tlctf2025-api.chals.io/api/register \
@@ -40,21 +40,21 @@ curl -s -o runtime_db.csv \
  "https://tlctf2025-data-app.chals.io/download_db?api_key=6208d4e88be3d7a2c6845189a23954420f037a262d13a833b9ace3ef98a35ee0"
 
 
-### 📌 Key Learnings
+###  Key Learnings
 Minor parsing/logical flaws can escalate to full authorization bypasses.
 
 Shipping secrets (e.g., ADMIN_API_KEY, FLAG_SECRET) in public distributions leads to immediate compromise.
 
 Reusing predictable PRNGs or keystreams breaks confidentiality for XOR-style stream ciphers.
 
-### 📁 Included File
+###  Included File
 A full detailed write-up with all screenshots and explanations is included in the repository.
 
 You can access it here:  
 [**Write-Up_TrustCTF.pdf**](./Write-Up_TrustCTF.pdf)
 
 
-### 👤 Authors
+###  Authors
 
 Kamal Akhter
 
